@@ -4,6 +4,8 @@ import Home from './page/Home';
 import Rootlayout from './Layout/Rootlayout';
 import InGame from './page/InGame';
 
+import './root.css';
+
 const router = createBrowserRouter([
   {
     path: "/",
