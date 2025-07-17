@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom';
 import Home from './page/Home';
 import Rootlayout from './Layout/Rootlayout';
+import InGame from './page/InGame';
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "home", element: <Home /> },
+      { path: "in-game", element: <InGame /> },
     ]
   }
 ]);
